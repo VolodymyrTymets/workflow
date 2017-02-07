@@ -16,8 +16,9 @@ Provides rendering email templates ana sending emails for users.
 
 ### Addition Information
 
-Add into `private/templates/emails` email html templates.
-Also add email wrapper into `private/templates/emails`
+ - add into `private/templates/emails` email html templates;
+ - add email wrapper into `private/templates/emails`
+ - add email fotter templates into `private/templates/emails/footers`
 
 # Pdf Builder
 
