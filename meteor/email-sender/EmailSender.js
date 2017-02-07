@@ -33,24 +33,6 @@ class EmailSender {
     this._template = null;
     this._footer = null;
 
-    this._templates = {
-      notification: [ // when need notification about something new (teacher have new vacancy)
-        'school_accept-interview',
-        'school_declined-interview',
-        'school_forward-application',
-        'school_invoice-email',
-        'school_new-application',
-        'school_new-feedback',
-        'school_new-follower',
-        'school_posting-vacancy',
-        'school_updating-plan',
-        'teacher_declined-application',
-        'teacher_new-interview',
-        'teacher_new-job',
-        'teacher_new-vacancy'
-      ],
-    };
-
     this._sendEmail = this._sendEmail.bind(this);
   }
 
