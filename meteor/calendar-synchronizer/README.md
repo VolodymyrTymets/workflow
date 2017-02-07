@@ -1,4 +1,4 @@
-# Email Sender
+# Calendar Synchronizer
 
 ### Export unExport event into services
 
