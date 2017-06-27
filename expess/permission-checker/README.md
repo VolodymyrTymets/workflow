@@ -4,7 +4,7 @@
 
 Provide permission checker to allow/deny some action on some api.
 
-###Example of usage
+### Example of usage
 
 ```
  import { hasPermissionTo, actions } from '../'
