@@ -3,7 +3,7 @@
 ### Description
 Provide get, post, update, remove and query methods to send requests for Api
 
-###Example of usage
+### Example of usage
 
 ```
  import { get, APIAddresses, query }
