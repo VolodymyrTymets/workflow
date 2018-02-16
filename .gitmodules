@@ -1,3 +1,6 @@
 [submodule "express/express-api"]
 	path = express/express-api
 	url = https://github.com/VolodymyrTymets/express-api.git
+[submodule "express/express-graphql-api"]
+	path = express/express-graphql-api
+	url = https://github.com/VolodymyrTymets/express-graphql-api.git
