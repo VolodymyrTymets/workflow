@@ -4,3 +4,6 @@
 [submodule "express/express-graphql-api"]
 	path = express/express-graphql-api
 	url = https://github.com/VolodymyrTymets/express-graphql-api.git
+[submodule "express/docker-express"]
+	path = express/docker-express
+	url = https://github.com/VolodymyrTymets/docker-express.git
