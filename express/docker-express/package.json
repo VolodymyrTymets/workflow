@@ -1,0 +1,52 @@
+{
+  "name": "docker-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "docker-build": "docker build -t first-docker-app .",
+    "docker-run": "docker run -p 3001:3000 -d first-docker-app",
+    "lint": "eslint ./src "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VolodymyrTymets/docker-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VolodymyrTymets/docker-express/issues"
+  },
+  "homepage": "https://github.com/VolodymyrTymets/docker-express#readme",
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "dataobject-parser": "^1.2.1",
+    "debug": "~2.6.9",
+    "dotenv": "^5.0.0",
+    "express": "~4.15.5",
+    "express-jwt": "^5.3.0",
+    "http": "0.0.0",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.5",
+    "mongoose": "^5.0.4",
+    "morgan": "~1.9.0",
+    "node-random-name": "^1.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.5.0",
+    "randomstring": "^1.1.5",
+    "rest-api-errors": "^1.2.1",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^4.0.0-rc1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-plugin-node": "^6.0.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-util": "^3.0.8"
+  }
+}

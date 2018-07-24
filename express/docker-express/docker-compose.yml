@@ -1,0 +1,19 @@
+version: "2"
+services:
+  api:
+    image: ask-apiko-api
+    build: .
+    command: node ./bin/www
+    ports:
+      - "3000:3001"
+    environment:
+      MONGODB_URI: mongodb://mongo:27017
+      PORT: 3001
+    volumes:
+      - .:/usr/src/ask-apiko-api
+    links:
+      - mongo
+  mongo:
+   image: mongo
+   ports:
+      - "27017:27017"
